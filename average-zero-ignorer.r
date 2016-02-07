@@ -7,7 +7,7 @@ months <- 0
 for (l in list) {
     if (l == 0)
         next
-    else (l != 0)
+    else
         total <- total+l
         months <- months+1
 }
